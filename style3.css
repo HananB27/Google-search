@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(35, 35, 35);
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin: auto;
+}
+
+.pretrazivac{
+    flex-direction: column;
+    display: flex;
+    padding-top: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+.google{
+    max-height: 92px;
+    position: relative;
+    height: 100%;
+    margin-top: auto;
+    display: block;
+}
+.google img{
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+    height: 100px;
+    
+}
+    
+.link{
+    display:flex ;
+    justify-content: flex-start;
+    width: 70px;
+    margin: 3vh;
+    }
+
+.tekst{
+    position: absolute;
+    color: white;
+    font-size: 18px;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    left: 240px;
+    bottom: 0;
+    white-space: nowrap;
+}
+.bar{
+    width: 85vh;
+    height: 6vh;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 15px;
+    background-color: rgb(217, 217, 217);
+    font-family: 'Cantarell', sans-serif;
+    font-size: 20px;
+    margin-top: 2vh;
+    
+}
+
+.searchbtn{
+    margin-top: 3vh;
+    margin-left: 3vh;
+    height: 5vh;
+    background-color: transparent;
+    border-radius: 15px;
+    border: 1px solid rgb(70, 70, 70);
+    width: 27vh;
+    font-size: 18px;
+    font-family: 'Cantarell', sans-serif;
+    background-color: rgb(208, 208, 208);
+    
+
+}

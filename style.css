@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(35, 35, 35);
+    
+    overflow-x: hidden;
+    margin: auto;
+}
+
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    padding: 2vh 2vh;
+
+}
+.advsrc{
+    
+    width: 35vh;
+    height: 4vh;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(35, 35, 35);
+    font-family: 'Cantarell', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+.gim{
+    width: 30vh;
+    height: 6vh;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(35, 35, 35);
+    font-family: 'Cantarell', sans-serif;
+    font-size: 20px;
+    margin-left: 5vh;
+}
+
+.pretrazivac{
+    flex-direction: column;
+    display: flex;
+    padding-top: 10vh;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+img{
+    width: 400px;
+    height: 120px; 
+    padding-bottom: 5vh;
+    
+}
+
+.bar{
+    width: 85vh;
+    height: 6vh;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 15px;
+    background-color: rgb(217, 217, 217);
+    font-family: 'Cantarell', sans-serif;
+    font-size: 20px;
+    
+}
+
+.searchbtn{
+    margin-top: 3vh;
+    margin-left: 3vh;
+    height: 5vh;
+    background-color: transparent;
+    border-radius: 15px;
+    border: 1px solid rgb(70, 70, 70);
+    width: 27vh;
+    font-size: 18px;
+    font-family: 'Cantarell', sans-serif;
+    background-color: rgb(208, 208, 208);
+    
+
+}
+
+
+
+footer{
+    margin-top: 34vh;
+    width: 100vw;
+    height: 17vh;
+    background-color: black;   
+}
+.bih{
+    color: white;
+    font-family: 'Cantarell', sans-serif;
+    padding-top:2vh ;
+    margin-left: 5vw;
+    font-size: 15px;
+}
+
+.lfooter{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Cantarell', sans-serif;
+    
+}
+
+
+
+
